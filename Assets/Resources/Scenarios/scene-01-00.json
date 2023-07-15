@@ -1,0 +1,18 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "func": "map names",
+            "param": {
+                "Member 1": "m_1",
+                "Member 2": "f_2",
+                "Member 3": "m_2",
+            },
+            "type": "action"
+        },
+        {
+            "target": "scene-01-01.json",
+            "type": "jump"
+        }
+    ]
+}

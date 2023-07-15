@@ -1,0 +1,303 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "",
+            "speaker": "",
+            "text": "time skip to when Member 2 is done talking",
+            "type": "normal"
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_2/presentation member 2_11.wav",
+            "speaker": "Member 2",
+            "text": "Alright, so that was my introduction, and now we'll talk about the history of math.",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "Thank you Member 2! So, as mentioned, I'll talk about the history of math.",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "",
+            "text": "slide change",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "Let's get into it. Who knows who this is?",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "",
+            "text": "pause",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "I see a few hands! This is Isaac Newton, who we know invented calculus",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "",
+            "text": "slide change",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "But math finds its roots much further back in time",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "All the way back to ancient Egypt and Babylon, around 2000 BC",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "",
+            "text": "slide change",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "Math back then was very simple, mostly just numbers and counting",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "You can see how this looked back then in these images",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "It was mostly used for things like measuring things, time and angles",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "It was also used for more complex things like geographical coordinates",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "",
+            "text": "slide change",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "If we skip forward in time, we'll start to see names we recognize a little more",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "You may have heard of a couple of these names",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "We have Pythagoras, who of course invented the Pythagorean theroem",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "Archimedes, who studied buoyancy",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "Euclid, who is also very important to our math even today",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "And a few other people who are shown here",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "",
+            "text": "slide change",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "The next person I will talk about was alive around 780 tto 850 AD",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "If you see this person's name, it might sound like a word you may know",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "His name, when westernized, is 'algorithm'",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "He is widely considered the father of algebra",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "Which is a basis of a lot of the math we do today",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "",
+            "text": "slide change",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "This is Leornado of Pisa, who brought arabic numerals to Europe",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "Another name he has been referred to by is Fibonacci",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "",
+            "text": "slide change",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "Let's jump ahead a lot, around the period of 1500 to 1700",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "This period showed a lot of significant leaps in mathematics",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "There are many notable people during this time who progressed mathematics",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "Some of them are Galileo, Descartes, Pascal and Fermat",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "Galileo is known as the father of modern science",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "Descarte, of course, invented Cartesian geometry",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "Finally, Fermat invented Fermat's last theorem",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "",
+            "text": "slide change",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "I showed you Isaac Newton earlier, but he's back now, in the late 1600s",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "Newton's contributions to mathematics and science are very important",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "As I mentioned earlier he is best known for the creation of calculus",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "As we move further and further ahead in time, we will continue to see more important people",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "One of these people is Euler, who was one of the most prominent mathematicians of the 18th century",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "A couple of honorable mentions are John von Neumann and Calude Shannon",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "In addition to mathematics, they also did work that is the basis of computer science",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "",
+            "text": "slide change",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Player",
+            "text": "That's it from me, and my partner here will take over now",
+            "type": "normal"
+        },
+        {
+            "target": "scene-01-08.json",
+            "type": "jump"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "type": "choice",
+            "text" : "",
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "any"
+                    },
+                    "target": "scenario3/scene-03-03-03-03.json",
+                    "text":  "Could you tell me more about the extra groups?",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any"
+                    },
+                    "target": "scenario3/scene-03-03-03-04.json",
+                    "text": "What are these events?",
+                    "type": "jump"
+                }
+            ]
+        }
+    ]
+}

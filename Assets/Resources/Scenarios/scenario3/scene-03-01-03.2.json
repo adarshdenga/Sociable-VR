@@ -1,0 +1,65 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/3.mp3",
+            "speaker": "Bus driver",
+            "text": "To which stop?",
+            "type": "normal"
+        },
+        {
+            "text": "To High Street.",
+            "type": "player",
+            "keywords": {
+                "type": "any"
+            }
+        },
+        {
+            "audio": "s03/4.mp3",
+            "speaker": "Bus driver",
+            "text": "Alright, that'll be 3 Euros.",
+            "type": "normal"
+        },
+        { 
+            "text": "",
+            "type": "choice",
+            "choice" : [
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "cash"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-02-00.json",
+                    "text": "Can I pay by cash?",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "card"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-02-00.json",
+                    "text": "Can I pay by card?",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "okay",
+                            "OK"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-02-00.json",
+                    "text": "Okay.",
+                    "type": "jump"
+                }
+            ]
+        }
+    ]
+    
+}

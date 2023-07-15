@@ -1,0 +1,15 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/74.mp3",
+            "speaker": "Mr. Jefferson",
+            "text":  "This is a topic I can't fully comment on since I am not the one in charge of the payroll. I can assure you however, that you will be paid at least market price for your work.",
+            "type": "normal"
+        },
+        {
+            "type": "jump",
+            "target": "scenario3/scene-03-end.json"
+        }
+    ]
+}

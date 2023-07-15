@@ -1,0 +1,166 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s01/voice_lines_pres_member_1/member 1_02.wav",
+            "speaker": "Member 1",
+            "text": "So our Brightspace page says we have to present for rougly 6 minutes",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Will there be questions at the end?",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "questions",
+                    "end"
+                ]
+            }
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_1/member 1_03.wav",
+            "speaker": "Member 1",
+            "text": "Here it says so, yes",
+            "type": "normal"
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_2/presentation member 2_03.wav",
+            "speaker": "Member 2",
+            "text": "I think we have enough material for 6 minutes",
+            "type": "normal"
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_1/member 1_04.wav",
+            "speaker": "Member 1",
+            "text": "Oh for sure",
+            "type": "normal"
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_3/presentation member 3_02.wav",
+            "speaker": "Member 3",
+            "text": "We should, yeah",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Now we just need to divide up the work",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "divide",
+                    "work"
+                ]
+            }
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_3/presentation member 3_03.wav",
+            "speaker": "Member 3",
+            "text": "How do you propose we do that?",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Well, we are presenting about alligators...",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "presenting",
+                    "alligators"
+                ]
+            }
+        },
+        {
+            "speaker": "Player",
+            "text": "We could just divide it up based on the parts we worked on",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "divide",
+                    "parts"
+                ]
+            }
+        },
+        {
+            "audio": "",
+            "speaker": "Member 3",
+            "text": "Oh then I can take the ending",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Member 1",
+            "text": "Me too",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Member 2",
+            "text": "I worked on the introduction, so I'll talk about that",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Alright, that sounds good to me!",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "good",
+                    "me"
+                ]
+            }
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_1/member 1_05.wav",
+            "speaker": "Member 1",
+            "text": "Sounds good!",
+            "type": "normal"
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_2/presentation member 2_05.wav",
+            "speaker": "Member 2",
+            "text": "Okay!",
+            "type": "normal"
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_3/presentation member 3_05.wav",
+            "speaker": "Member 3",
+            "text": "Sure",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Great, I think we should be able to hit 6 minutes with these",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "should",
+                    "minutes",
+                    "these"
+                ]
+            }
+        },
+        {
+            "speaker": "Player",
+            "text": "As for the questions whoever knows the answers can answer them",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "questions",
+                    "answer"
+                ]
+            }  
+        },
+        {
+            "target": "scene-01-03.json",
+            "type": "jump"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/15.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "You passed the technical assessment with flying colours and that's why we wanted to know a bit more about you. We just want to see if you are a good fit for our company and gauge some of your soft skills, but judging from our first interview, I think you should be fine." ,
+            "type": "normal"
+        },
+        {
+            "type": "choice",
+            "text" : "",
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "good",
+                            "know",
+                            "more",
+                            "company",
+                            "work"
+                        ]   
+                    },
+                    "target": "scenario3/scene-03-03-02.json",
+                    "text": "That sounds good, I also want to know more about your company's work",
+                    "score": 16,
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "empty"
+                    },
+                    "target": "scenario3/scene-03-03-02.json",
+                    "text": "Okay",
+                    "score": 3,
+                    "type": "jump"
+                }
+            ]
+        }
+    ]
+}

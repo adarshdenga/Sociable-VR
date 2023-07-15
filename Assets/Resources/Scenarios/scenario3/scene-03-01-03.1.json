@@ -1,0 +1,39 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "would",
+                            "like",
+                            "please"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-01-03.2.json",
+                    "text": "I would like to buy a bus ticket, please.",
+                    "score": 6,
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "can",
+                            "i"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-01-03.2.json",
+                    "text": "Can I buy a bus ticket?",
+                    "score": 3,
+                    "type": "jump"
+                }
+            ],
+            "text": "",
+            "type": "choice"
+        }
+    ]
+    
+}

@@ -1,0 +1,14 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/73.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Well then, that concludes our interview. You will be hearing back from us in a couple of days. Have a nice day!",
+            "type": "normal"
+        },
+        {
+            "type": "end"
+        }
+    ]
+}

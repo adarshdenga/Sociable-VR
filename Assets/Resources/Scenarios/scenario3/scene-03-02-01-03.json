@@ -1,0 +1,40 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/10.mp3",
+            "speaker": "Receptionist",
+            "text": "Oh, you are the potential new manager I've heard about. Our team is lovely to work with. They're all very passionate and interesting people. I have no doubt you will get accepted for the job since there weren't many applicants and two of our previous HR managers are quitting next month.",
+            "type": "normal"
+        },
+        {
+            "text": "That sounds very good for me, I guess. Where do I have to be for the interview?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "good",
+                    "where",
+                    "interview"       
+                ]
+            }
+        },
+        {
+            "audio": "s03/11.mp3",
+            "speaker": "Receptionist",
+            "text": "Oh right, room 156 on the first floor is Mr. Jefferson's office. He should be there waiting for you.",
+            "type": "normal"
+        },
+        {
+            "text": "Alright, thanks!",
+            "type": "player",
+            "keywords": {
+                "type": "empty"
+            }
+        },
+        {
+            "target": "scenario3/scene-03-03-01.0.json",
+            "type": "jump"
+        }
+    ]
+}

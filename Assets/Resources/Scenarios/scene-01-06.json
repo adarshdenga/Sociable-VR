@@ -1,0 +1,15 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s01/voice_lines_pres_member_2/presentation member 2_10.wav",
+            "speaker": "Member 2",
+            "text": "Hey everyone! Today our group will be talking about the history of mathematics. I'll start us off, and then my groupmate here will talk about the actual history of math itself",
+            "type": "normal"
+        },
+        {
+            "target": "scene-01-07.json",
+            "type": "jump"
+        }
+    ]
+}

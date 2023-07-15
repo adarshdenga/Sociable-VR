@@ -1,0 +1,15 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/52.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "No, not really, because we offer enough events and extra groups to encourage interaction with a wider group of people.",
+            "type": "normal"
+        },
+        { 
+            "type": "jump",
+            "target": "scenario3/scene-03-03-03-02.1.json"
+        }
+    ]
+}

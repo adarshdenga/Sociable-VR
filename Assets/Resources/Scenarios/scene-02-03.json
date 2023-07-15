@@ -1,0 +1,38 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s02/s2_guest_1/3.mp3",
+            "speaker": "Guest 1",
+            "text": "Wow this place seems kind of cool, I've never been here before!",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_guest_2/3.mp3",
+            "speaker": "Guest 2",
+            "text": "Me neither!",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_guest_1/4.mp3",
+            "speaker": "Guest 1",
+            "text": "What do you guys usually like to eat?",
+            "type": "normal"
+        },
+        {
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "empty"
+                    },
+                    "score": 0,
+                    "target": "scene-02-03-01.json",
+                    "text": "",
+                    "type": "jump"
+                } 
+            ],
+            "text": "",
+            "type": "choice"
+        }
+    ]
+}

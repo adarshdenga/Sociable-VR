@@ -1,0 +1,52 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s01/voice_lines_pres_member_2/presentation member 2_08.wav",
+            "speaker": "Member 2",
+            "text": "So it's almost time to head to lunch, should we head out?",
+            "type": "normal"
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_2/presentation member 2_09.wav",
+            "speaker": "Member 2",
+            "text": "I guess I'll see you all at the presentation",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Where is it again? I know it's in building 42",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "where",
+                    "building"
+                ]
+            }
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_1/member 1_09.wav",
+            "speaker": "Member 1",
+            "text": "Yes, building 42 and then hall 3",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "See you guys later",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "see",
+                    "later"       
+                ]
+            }
+        },
+        {
+            "func": "change scene",
+            "param": "01-Presentation.unity",
+            "type": "action"
+        }
+    ]
+}

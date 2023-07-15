@@ -1,0 +1,15 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/2.mp3",
+            "speaker": "Bus Driver",
+            "text": "Hello, I'm good. Thank you.",
+            "type": "normal"
+        },
+        {
+            "target": "scenario3/scene-03-01-03.1.json",
+            "type": "jump"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "$schema": "scene_schema.json",
+    "main":[
+        {
+            "audio": "s02/s2_guest_1/7.mp3",
+            "speaker": "Guest 1",
+            "text": "Wow this place is really busy for a weekday",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_guest_2/6.mp3",
+            "speaker": "Guest 2",
+            "text": "I'm surprised!",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Is there some place either of you really want to travel to?",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "some",
+                    "place",
+                    "either",
+                    "want",
+                    "travel"
+                ]
+            }
+        },
+        {
+            "audio": "s02/s2_guest_2/7.mp3",
+            "speaker": "Guest 2",
+            "text": "Ooh, I've really wanted to go to Asia, specifically India and Japan!",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_guest_2/8.mp3",
+            "speaker": "Guest 1",
+            "text": "Probably South America somewhere, what about you?",
+            "type": "normal"
+        },
+        {
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "empty"
+                    },
+                    "score": 0,
+                    "target": "scene-02-06.json",
+                    "text": "",
+                    "type": "jump"
+                } 
+            ],
+            "text": "",
+            "type": "choice"
+        }
+    ]
+}

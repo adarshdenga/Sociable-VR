@@ -1,0 +1,60 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/43.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "So you were mainly interacting with the coworkers in your team then?",
+            "type": "normal"
+        },
+        {
+            "text": "Yes, and in the team there was no real hierarchy since everyone had different roles and specialisations.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "no",
+                    "real",
+                    "different",
+                    "roles",
+                    "specialisations"
+                ]
+            }
+        },
+        {
+            "audio": "s03/44.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "That sounds a bit more like our work culture then.",
+            "type": "normal"
+        },
+        {
+            "text": "That is good then since I preferred that style of working.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "good",
+                    "preferred",
+                    "style"
+                ]
+            }
+        },
+        {
+            "audio": "s03/45.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "It seems that you will fit in with regards to that aspect then.",
+            "type": "normal"
+        },
+        {
+            "text": "Yes, I think so too.",
+            "type": "player",
+            "keywords": {
+                "type": "empty"
+            }
+        },
+        {
+            "type": "jump",
+            "target": "scenario3/scene-03-03-03.json"
+        }
+    ]
+}

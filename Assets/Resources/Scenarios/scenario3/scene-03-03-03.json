@@ -1,0 +1,30 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "type": "choice",
+            "text" : "",
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "empty"
+                    },
+                    "target": "scenario3/scene-03-03-03-01.json",
+                    "text": "How is the dynamic in a team?",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "different"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-03-03-02.json",
+                    "text": "How are the dynamics between the different teams?",
+                    "type": "jump"
+                }
+            ]
+        }
+    ]
+}

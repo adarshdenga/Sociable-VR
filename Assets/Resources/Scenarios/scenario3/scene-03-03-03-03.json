@@ -1,0 +1,129 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/54.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "So to ensure that everyone has the opportunity to connect with people from other teams, we try to assign everyone to a more social team that we call groups that consist of people who joined the company at around the same time as you.",
+            "type": "normal"
+        },
+        {
+            "text": "Oh, that sounds really cool. How big are these groups?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "sounds",
+                    "cool",
+                    "big",
+                    "groups"
+                ]
+            }
+        },
+        {
+            "audio": "s03/55.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "The size varies, but I think the smallest group has around 14 or 15 members? We have 9 teams at the moment, so it is likely that one of your groupmates is also your teammate.",
+            "type": "normal"
+        },
+        {
+            "text": "Is every team represented in every group?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "team",
+                    "represented",
+                    "every",
+                    "group"
+                ]
+            }
+        },
+        {
+            "audio": "s03/56.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "We try to aim for this, but of course that is not always possible. I'd say that most groups do have a majority of the teams represented in them however. By grouping you with colleagues that have similar amounts of experience at our company, we try to really give the group a feeling of cohesion and the feeling that you are growing as a group with each other and the company.",
+            "type": "normal"
+        },
+        {
+            "text": "Yeah, that is also what really piqued my interest, it sounds like a very cool concept.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "piqued",
+                    "interest",
+                    "cool",
+                    "concept"
+                ]
+            }
+        },
+        {
+            "text": "Is it also common then that these groups go to social activities together outside of work time?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "common",
+                    "social",
+                    "activities",
+                    "outside",
+                    "work"
+                ]
+            }
+        },
+        {
+            "audio": "s03/57.mp3",
+            "speaker": "Mr. Jefferson",
+            "text":  "Yes, that happens every now and then, either with the whole group or a smaller portion of the group. The company also offers a bimonthly budget for the group to do something together.",
+            "type": "normal"
+        },
+        {
+            "text": "Oh, so the company is really trying to encourage people from different teams to connect with eachother?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "company",
+                    "encourage",
+                    "people",
+                    "teams",
+                    "connect"
+                ]
+            }
+        },
+        {
+            "audio": "s03/58.mp3",
+            "speaker": "Mr. Jefferson",
+            "text":  "Yes, we think that this enables more creativity but also keeps everyone from different teams informed about what other teams are doing.",
+            "type": "normal"
+        },
+        {
+            "text": "Oh right, because more often than not, you do not really know what other teams are doing since you are only working with your own team.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "more",
+                    "often",
+                    "than",
+                    "not",
+                    "teams",
+                    "working",
+                    "own",
+                    "team"
+                ]
+            }
+        },
+        {
+            "audio": "s03/59.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "And with this group structure, we hope that everyone in the company knows at least a little bit about what other people outside of their own team are working on.",
+            "type": "normal"
+        },
+        {
+            "type": "jump",
+            "target": "scenario3/scene-03-03-03-04.json"
+        }
+    ]
+}

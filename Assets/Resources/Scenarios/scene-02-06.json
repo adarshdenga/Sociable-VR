@@ -1,0 +1,74 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s02/s2_waiter/7.mp3",
+            "speaker": "Waiter",
+            "text": "I'm back again! Before we order, would you like me to top you up on your drinks?",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Yes please!",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "yes",
+                    "please"
+                ]
+            }
+        },
+        {
+            "audio": "s02/s2_guest_1/9.mp3",
+            "speaker": "Guest 1",
+            "text": "Sure!",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_waiter/8.mp3",
+            "speaker": "Waiter",
+            "text": "Alright! I'll get those for you in a bit!",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_waiter/9.mp3",
+            "speaker": "Waiter",
+            "text": "Have we decided what we're eating tonight?",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_guest_1/10.mp3",
+            "speaker": "Guest 1",
+            "text": "I'll have the pasta with with bolognese",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_guest_2/9.mp3",
+            "speaker": "Guest 2",
+            "text": "I'll have the gnocchi with white sauce",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_waiter/10.mp3",
+            "speaker": "Waiter",
+            "text": "Mhmm, and how about you?",
+            "type": "normal"
+        },
+        {
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "empty"
+                    },
+                    "score": 0,
+                    "target": "scene-02-06-01.json",
+                    "text": "",
+                    "type": "jump"
+                } 
+            ],
+            "text": "",
+            "type": "choice"
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/33.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Yes?",
+            "type": "normal"
+        },
+        {
+            "text": "The employees were expected to adhere to the demands set by their superiors.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "employees",
+                    "demands",
+                    "superiors"
+                ]
+            }
+        },
+        {
+            "text": "This was expected in both work environments and more social environments.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "both",
+                    "work",
+                    "social",
+                    "environments"
+                ]
+            }
+        },
+        {
+            "audio": "s03/34.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Oh, so you were expected to go out to drink with them if they invited you?",
+            "type": "normal"
+        },
+        {
+            "text": "Yes, exactly. Even if I was tired or had a busy schedule, it was almost unheard of to reject the invitation.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "tired",
+                    "busy",
+                    "unheard",
+                    "reject"
+                ]
+            }
+        },
+        {
+            "audio": "s03/35.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "That sounds very exhausting, especially if you were not feeling it that day. What about on the work floor?",
+            "type": "normal"
+        },
+        {
+            "type": "choice",
+            "text" : "",
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "hard",
+                            "discuss",
+                            "new",
+                            "ideas"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-03-02-03-03.json",
+                    "text": "On the work floor, it was very hard to discuss and introduce new ideas to them.",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "better",
+                            "interact", 
+                            "occassional",
+                            "meeting"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-03-02-03-04.json",
+                    "text": "On the work floor, it was a bit better since I did not really need to interact with my superiors except the occasional evaluation meeting.",
+                    "type": "jump"
+                }
+            ]
+        }
+    ]
+}

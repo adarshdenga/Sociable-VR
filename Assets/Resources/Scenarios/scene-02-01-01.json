@@ -1,0 +1,57 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s02/s2_guest_1/1.mp3",
+            "speaker": "Guest 1",
+            "text": "Hello!",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_guest_2/1.mp3",
+            "speaker": "Guest 2",
+            "text": "Hello!",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_host/2.mp3",
+            "speaker": "Host",
+            "text": "So, how many are we today?",
+            "type": "normal"
+        },
+        {
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "all",
+                        "value": [
+                            "three"
+                        ]
+
+                    },
+                    "score": 0,
+                    "target": "scene-02-01-02.json",
+                    "text": "Three",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "all",
+                        "value": [
+                            "would",
+                            "like",
+                            "table",
+                            "please"
+                        ]
+                    },
+                    "score": 1,
+                    "target": "scene-02-01-02.json",
+                    "text": "We'd like a table for three please!",
+                    "type": "jump"
+                }
+            ],
+            "text": "",
+            "type": "choice"
+        }
+    ]
+}

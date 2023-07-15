@@ -1,0 +1,179 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "required": [
+        "main"
+    ],
+    "properties": {
+        "main": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "type"
+                ],
+                "allOf": [
+                    {
+                        "if": {
+                            "properties": {
+                                "type": {
+                                    "const": "player"
+                                }
+                            }
+                        },
+                        "then": {
+                            "required": [
+                                "keywords",
+                                "text",
+                                "type"
+                            ]
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": {
+                                "type": {
+                                    "const": "normal"
+                                }
+                            }
+                        },
+                        "then": {
+                            "required": [
+                                "audio",
+                                "speaker",
+                                "text",
+                                "type"
+                            ]
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": {
+                                "type": {
+                                    "const": "choice"
+                                }
+                            }
+                        },
+                        "then": {
+                            "required": [
+                                "choice",
+                                "text",
+                                "type"
+                            ]
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": {
+                                "type": {
+                                    "const": "jump"
+                                }
+                            }
+                        },
+                        "then": {
+                            "required": [
+                                "target",
+                                "type"
+                            ]
+                        }
+                    }
+                ],
+                "properties": {
+                    "audio": {
+                        "type": "string"
+                    },
+                    "choice": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "required": [
+                                "keywords",
+                                "target",
+                                "text",
+                                "type"
+                            ],
+                            "properties": {
+                                "keywords": {
+                                    "type": "object",
+                                    "required": [
+                                        "type"
+                                    ],
+                                    "properties": {
+                                        "type": {
+                                            "type": "string",
+                                            "enum": [
+                                                "all",
+                                                "any",
+                                                "empty"
+                                            ]
+                                        },
+                                        "value": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                },
+                                "score": {
+                                    "type": "integer"
+                                },
+                                "target": {
+                                    "type": "string"
+                                },
+                                "text": {
+                                    "type": "string"
+                                },
+                                "type": {
+                                    "type": "string",
+                                    "const": "jump"
+                                }
+                            }
+                        }
+                    },
+                    "keywords": {
+                        "type": "object",
+                        "required": [
+                            "type"
+                        ],
+                        "properties": {
+                            "type": {
+                                "type": "string",
+                                "enum": [
+                                    "all",
+                                    "any",
+                                    "empty"
+                                ]
+                            },
+                            "value": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    },
+                    "speaker": {
+                        "type": "string"
+                    },
+                    "target": {
+                        "type": "string"
+                    },
+                    "text": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "string",
+                        "enum": [
+                            "end",
+                            "player",
+                            "normal",
+                            "choice",
+                            "jump"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

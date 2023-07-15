@@ -1,0 +1,88 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/47.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "So about the internal team dynamics, everyone is equal in a team. You will be placed into a team with people of different disciplines, so you will effectively be the expert in your field for the team.",
+            "type": "normal"
+        },
+        {
+            "text": "Does this mean, that I will be the only one specialized in my field or are there also other colleagues?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "only",
+                    "one",
+                    "specialized",
+                    "field",
+                    "colleagues"
+                ]
+            }
+        },
+        {
+            "audio": "s03/49.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "In a team, there will usually be two to three people for each discipline, so you will not be alone but there also won't be many colleagues in your team to ask questions to.",
+            "type": "normal"
+        },
+        {
+            "text": "Can I ask people in other teams for help then if my own team does not know how to solve it?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "ask",
+                    "people",
+                    "other",
+                    "team",
+                    "solve"
+                ]
+            }
+        },
+        {
+            "audio": "s03/granted.wav",
+            "speaker": "Mr. Jefferson",
+            "text":  "Of course, granted you know who to ask. I think that as you develop more relationships with your other colleagues, you will get a feel for who is good at what and you will know who to ask for help.",
+            "type": "normal"
+        },
+        {
+            "text": "That sounds reassuring, especially for the earlier days where I will be needing a lot of help.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "reassuring",
+                    "earlier",
+                    "days",
+                    "needing",
+                    "help"
+                ]
+            }
+        },
+        {
+            "audio": "s03/abilites.wav",
+            "speaker": "Mr. Jefferson",
+            "text":  "In general, your team is open to help you to the best of their abilities, but sometimes those abilities don't align with your needs.",
+            "type": "normal"
+        },
+        {
+            "text": "What about the dynamics between the different teams?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "dynamics",
+                    "between",
+                    "different",
+                    "teams"
+                ]
+            }
+        },
+        {
+            "type": "jump",
+            "target": "scenario3/scene-03-03-03-02.json"
+        }
+    ]
+}

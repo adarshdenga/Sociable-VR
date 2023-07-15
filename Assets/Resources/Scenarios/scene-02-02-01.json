@@ -1,0 +1,40 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s02/s2_guest_1/2.mp3",
+            "speaker": "Guest 1",
+            "text": "We're great! How about you?",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_waiter/2.mp3",
+            "speaker": "Waiter",
+            "text": "I'm doing wonderful! I'll be helping you out today! Here are your food and drink menus, I'll be back in a bit so you can order, yes?",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Yes, thank you!",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "yes",
+                    "thank",
+                    "you"
+                ]
+            }
+        },
+        {
+            "audio": "s02/s2_guest_2/2.mp3",
+            "speaker": "Guest 2",
+            "text": "Sure! Thanks!",
+            "type": "normal"
+        },
+        {
+            "target": "scene-02-03.json",
+            "type": "jump"
+        }
+    ]
+}

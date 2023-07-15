@@ -1,0 +1,66 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "func": "map names",
+            "param": {
+                "Mr. Jefferson": "m_3"
+            },
+            "type": "action"
+        },
+        {
+            "audio": "",
+            "speaker": "",
+            "text": "Player enters Mr. Jefferson's office. The player is seated opposite of Mr. Jefferson's desk.",
+            "type": "normal"
+        },
+        {
+            "audio": "s03/14.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Hey, hello, welcome to your second interview.",
+            "type": "normal"
+        },
+        {
+            "type": "choice",
+            "text" : "",
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "any"
+                    },
+                    "target": "scenario3/scene-03-03-01.2.json",
+                    "text": "Hey",
+                    "type": "jump",
+                    "score": 3
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "glad",
+                            "here"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-03-01.2.json",
+                    "text": "Hello, I am glad to be here.",
+                    "type": "jump",
+                    "score": 16
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "thanks",
+                            "inviting",
+                            "follow-up"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-03-01.2.json",
+                    "text": "Hello, thanks for inviting me for a follow-up",
+                    "type": "jump",
+                    "score": 33
+                }
+            ]
+        }
+    ]
+}

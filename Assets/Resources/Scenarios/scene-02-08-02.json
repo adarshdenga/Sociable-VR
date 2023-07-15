@@ -1,0 +1,45 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s02/s2_waiter/16.mp3",
+            "speaker": "Waiter",
+            "text": "Ah, that's right. I'm very sorry! I'll have that brought out to you very soon!",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Thank you!",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "thank",
+                    "you"
+                ]
+            }
+        },
+        {
+            "audio": "s02/s2_waiter/17.mp3",
+            "speaker": "Waiter",
+            "text": "Alright! Here you are!",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Thank you!",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "thank",
+                    "you"
+                ]
+            }
+        },
+        {
+            "target": "scene-02-09.json",
+            "type": "jump"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/16.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Yes, lets get right into it then!",
+            "type": "normal"
+        },
+        {
+            "audio": "s03/17.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Our company is relatively young and strives to be modern. That is why our work culture does not really include any form of hierarchy and it is very free-flowing. Do you recognize yourself in this?",
+            "type": "normal"
+        },
+        {
+            "type": "choice",
+            "text" : "",
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "no",
+                            "hierarchy",
+                            "order"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-03-02-01.json",
+                    "text": "No, I like to have some form of hierarchy to give me a good sense of order.",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "yes",
+                            "outdated", 
+                            "practice"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-03-02-02.json",
+                    "text": "Yes, I have never been a fan of adhering to hierarchy since I feel it is an outdated practice.",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "bit",
+                            "flexible"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-03-02-03.json",
+                    "text": "A little bit, I would say I am very flexible and can adapt to any work culture.",
+                    "type": "jump"
+                }
+            ]
+        }
+    ]
+}

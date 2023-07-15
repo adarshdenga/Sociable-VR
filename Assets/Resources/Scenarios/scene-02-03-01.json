@@ -1,0 +1,21 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s02/s2_guest_2/4.mp3",
+            "speaker": "Guest 2",
+            "text": "As of late I've really been into Italian food, so this place is really convenient actually!",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_guest_1/5.mp3",
+            "speaker": "Guest 1",
+            "text": "Ah, I think we're going to order soon!",
+            "type": "normal"
+        },
+        {
+            "target": "scene-02-04.json",
+            "type": "jump"
+        }
+    ]
+}

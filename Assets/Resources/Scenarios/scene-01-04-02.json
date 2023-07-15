@@ -1,0 +1,59 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s01/voice_lines_pres_member_1/member 1_07.wav",
+            "speaker": "Member 1",
+            "text": "Oh the football game between the Netherlands and the US?",
+            "type": "normal"
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_2/presentation member 2_07.wav",
+            "speaker": "Member 2",
+            "text": "Yeah! We did well, but I thought the US were stronger",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "How are we doing? I've only seen a little bit about it online",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "how",
+                    "little",
+                    "online"
+                ]
+            }
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_1/member 1_08.wav",
+            "speaker": "Member 1",
+            "text": "Pretty well actually, so far",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "I should watch the games, they seem interesting",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "should",
+                    "watch",
+                    "interesting"
+                ]
+            }
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_3/presentation member 3_08.wav",
+            "speaker": "Member 3",
+            "text": "Me too, I did watch the first few games though",
+            "type": "normal"
+        },
+        {
+            "target": "scene-01-05.json",
+            "type": "jump"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s02/s2_guest_1/6.mp3",
+            "speaker": "Guest 1",
+            "text": "I'll have a glass of white wine, sweet!",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_waiter/5.mp3",
+            "speaker": "Waiter",
+            "text": "Awesome, and how about you?",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_guest_2/5.mp3",
+            "speaker": "Guest 2",
+            "text": "I think I'll have the same",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_waiter/6.mp3",
+            "speaker": "Waiter",
+            "text": "Great! I'll stop by in a bit again to take your order for food!",
+            "type": "normal"
+        },
+        {
+            "target": "scene-02-05.json",
+            "type": "jump"
+        }
+    ]
+}

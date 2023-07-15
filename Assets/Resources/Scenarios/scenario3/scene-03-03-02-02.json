@@ -1,0 +1,84 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/27.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Very nice, it seems like you would fit in nicely then. Our CEO often walks around on the work floor and is always open for a chat if you want to talk to him.",
+            "type": "normal"
+        },
+        {
+            "text": "Oh, that sounds very refreshing. It is a big contrast to the companies where the CEO is some sort of untouchable entity for the regular workforce.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "sounds",
+                    "refreshing",
+                    "big",
+                    "contrast",
+                    "untouchable"
+                ]
+            }
+        },
+        {
+            "audio": "s03/28.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Yes, the only form of real hierarchy we have is the relation between product managers and client managers.",
+            "type": "normal"
+        },
+        {
+            "text": "What do you mean exactly with that?",
+            "type": "player",
+            "keywords": {
+                "type": "any"
+            }
+        },
+        {
+            "audio": "s03/29.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Basically, we have a client manager who manages the relationship with the client. Each client can have multiple products with us, and that is where the product manager comes in.",
+            "type": "normal"
+        },
+        {
+            "text": "Oh, so that means the product managers are below the client managers in a way?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "product",
+                    "managers",
+                    "below"
+                ]
+            }
+        },
+        {
+            "audio": "s03/30.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Yes, exactly. The client manager is responsible in the end for everything related to that client. On rare occassions, a client manager can also be a product manager for the same client.",
+            "type": "normal"
+        },
+        {
+            "text": "But, this does not sound like a very strict hierarchy in the traditional sense, it sounds more like a practical hierarchy.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "strict",
+                    "traditional",
+                    "hierarchy"
+                ]
+            }
+        },
+        {
+            "audio": "s03/31.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "That is what we think too, this was implemented out of necessity and even so, you won't really notice it as much I think.",
+            "type": "normal"
+        },
+        {
+            "type": "jump",
+            "target": "scenario3/scene-03-03-03.json"
+        }
+    ]
+}

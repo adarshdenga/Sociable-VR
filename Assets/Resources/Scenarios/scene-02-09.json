@@ -1,0 +1,15 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s02/s2_waiter/17.mp3",
+            "speaker": "Waiter",
+            "text": "Alright! Here you are!",
+            "type": "normal"
+        },
+        {
+            "target": "scene-02-10.json",
+            "type": "jump"
+        }
+    ]
+}

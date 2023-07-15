@@ -1,0 +1,20 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s01/voice_lines_pres_member_3/presentation member 3_09.wav",
+            "speaker": "Member 3",
+            "text": "Alright! So that was our presentation, and we'd like to open it up to all of you in case you have any questions for us",
+            "type": "normal"
+        },
+        {
+            "audio": "",
+            "speaker": "Softfeather Games",
+            "text": "End of prototype",
+            "type": "normal"
+        },
+        {
+            "type": "end"
+        }
+    ]
+}

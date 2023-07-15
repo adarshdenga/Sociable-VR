@@ -1,0 +1,54 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/40.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Oh, that is not very good. At our company, we want everyone to be able to present their ideas and bounce off of each others creativity.",
+            "type": "normal"
+        },
+        {
+            "text": "To be fair, the superiors usually had the right ideas and there was not much wrong with them.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "fair",
+                    "superiors",
+                    "right",
+                    "not",
+                    "wrong"
+                ]
+            }
+        },
+        {
+            "audio": "s03/41.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "But what if you or your co-workers had a brilliant idea?",
+            "type": "normal"
+        },
+        {
+            "text": "Yeah, that is true. That would just be a wasted idea then.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "true",
+                    "wasted",
+                    "idea"
+                ]
+            }
+        },
+        {
+            "audio": "s03/42.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Yes, and that is what we want to try to avoid since we believe the best ideas come from collaborating and merging ideas.",
+            "type": "normal"
+        },
+        {
+            "type": "jump",
+            "target": "scenario3/scene-03-03-03.json"
+        }
+        
+    ]
+}

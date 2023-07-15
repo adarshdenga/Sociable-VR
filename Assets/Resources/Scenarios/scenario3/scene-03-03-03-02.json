@@ -1,0 +1,57 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/50.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "I think this differs a lot per person.",
+            "type": "normal"
+        },
+        {
+            "text": "How so?",
+            "type": "player",
+            "keywords": {
+                "type": "empty"
+            }
+        },
+        {
+            "audio": "s03/51.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Well, some people are inherently more social than others and are quicker to make connections and friends outside of their own team.",
+            "type": "normal"
+        },
+        {
+            "type": "choice",
+            "text" : "",
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "introvert",
+                            "person",
+                            "stick",
+                            "own"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-03-03-02-01.json",
+                    "text": "So as a somewhat more introvert person, I would likely stick to only my own team?",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "extrovert",
+                            "easy",
+                            "other"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-03-03-02-02.json",
+                    "text": "So as an extrovert, it will be easy for me to make friends in other teams?",
+                    "type": "jump"
+                }
+            ]
+        }
+    ]
+}

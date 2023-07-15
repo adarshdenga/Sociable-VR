@@ -1,0 +1,52 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "speaker": "Player",
+            "text": "Should we get the bill?",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "should",
+                    "get",
+                    "bill"
+                ]
+            }
+        },
+        {
+            "audio": "s02/s2_guest_1/13.mp3",
+            "speaker": "Guest 1",
+            "text": "Good idea, it's getting late",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_guest_2/12.mp3",
+            "speaker": "Guest 2",
+            "text": "Yes! You should call them over the next time they're close",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Excuse me! Could we have the bill?",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "could",
+                    "have",
+                    "bill"
+                ]
+            }
+        },
+        {
+            "audio": "",
+            "speaker": "Waiter",
+            "text": "Alright! Here you go!",
+            "type": "normal"
+        },
+        {
+            "type": "end"
+        }
+    ]
+}

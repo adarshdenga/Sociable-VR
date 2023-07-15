@@ -1,0 +1,199 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "text": "This also enables me to clearly know who I can go to for questions.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "enables",
+                    "questions"     
+                ]
+            }
+        },
+        {
+            "audio": "s03/18.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Oh. that is not very good, could you explain a bit more about what you liked especially?",
+            "type": "normal"
+        },
+        {
+            "text": "Yes, so as mentioned before, it helps me with knowing who I can go to with my questions. It also gives me less stress because in the end, I am not the one responsible for the product but my superiors are.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "knowing",
+                    "questions"     
+                ]
+            }
+        },
+        {
+            "text": "It also gives me less stress because in the end, I am not the one responsible for the product but my superiors are.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "less",
+                    "stress",
+                    "responsible",
+                    "superiors"
+                ]
+            }
+        },
+        {
+            "audio": "s03/19.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "So you are saying that you didn't really care about the product you were making at the time?",
+            "type": "normal"
+        },
+        {
+            "text": "No, more in the sense that, if something goes wrong unexpectedly, I will not feel the consequences fully.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "no",
+                    "wrong",
+                    "consequences"
+                ]
+            }
+        },
+        {
+            "text": "This does not mean that I slack off or do not try my best but it gives me a bit more peace of mind.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "not",
+                    "slack",
+                    "off",
+                    "peace"
+                ]
+            }
+        },
+        {
+            "audio": "s03/21.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Okay, that's a very interesting point of view to take. I think that won't really be problem in our company. If things go wrong, no one gets scolded or anything, since everyone is human and makes mistakes.",
+            "type": "normal"
+        },
+        {
+            "text": "That is very reassuring.",
+            "type": "player",
+            "keywords": {
+                "type": "empty"
+            }
+        },
+        {
+            "audio": "s03/22.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "You also mentioned knowing who to go to for your questions, could you elaborate a bit more on that?",
+            "type": "normal"
+        },
+        {
+            "text": "Yeah, so when I would get stuck on something or I was not sure about what to do, I would usually go to my superiors and they would be able to help me out flawlessly.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "stuck",
+                    "superiors",
+                    "sure",
+                    "help",
+                    "flawlessly"
+                ]
+            }
+        },
+        {
+            "audio": "s03/23.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Ah, I see, they would help give you a sense of direction and help with more difficult questions?",
+            "type": "normal"
+        },
+        {
+            "text": "Yes, exactly.",
+            "type": "player",
+            "keywords": {
+                "type": "empty"
+            }
+        },
+        {
+            "audio": "s03/hierarchy.wav",
+            "speaker": "Mr. Jefferson",
+            "text": "What about the hierarchy in social situations, how was that like?",
+            "type": "normal"
+        },
+        {
+            "text": "I think it was pretty standard. When you were invited to go out to drink or eat, it was basically expected that you comply.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "standard",
+                    "invited",
+                    "drink",
+                    "eat",
+                    "expected",
+                    "comply"
+                ]
+            }
+        },
+        {
+            "audio": "s03/24.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "And how did you experience this?",
+            "type": "normal"
+        },
+        {
+            "text": "Personally, I quite liked it. I am always down to eat or drink something and usually the higher-ups would pay for it so that is also a nice bonus.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "liked",
+                    "down",
+                    "something",
+                    "pay",
+                    "bonus"
+                ]
+            }
+        },
+        {
+            "audio": "s03/25.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "What about the days you just need some alone time?",
+            "type": "normal"
+        },
+        {
+            "text": "Yeah honestly, on those days it would feel more like a chore than a fun time but I just saw it as part of the work experience.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "honestly",
+                    "chore",
+                    "work"
+                ]
+            }
+        },
+        {
+            "audio": "s03/26.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "At our company, we don't really have a hierarchy but if people ask invite each other out for some social activities, no one is gonna be mad if you decline because everyone knows that everyone needs some alone time now and then.",
+            "type": "normal"
+        },
+        {
+            "text": "That is nice to hear",
+            "type": "player",
+            "keywords": {
+                "type": "empty"
+            }
+        },
+        {
+            "type": "jump",
+            "target": "scenario3/scenario3/scene-03-03-03.json"
+        }
+    ]
+}

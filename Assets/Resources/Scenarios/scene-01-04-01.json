@@ -1,0 +1,74 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "speaker": "Player",
+            "text": "I knew we would win but I didn't expect that it would be so easy",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "win",
+                    "expect",
+                    "easy"
+                ]
+            }
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_2/presentation member 2_06.wav",
+            "speaker": "Member 2",
+            "text": "I thought the U.S. would make it further, but I'm not surprised they lost to us",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Same, it was a good match though",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "good",
+                    "match"
+               ]
+            }
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_3/presentation member 3_06.wav",
+            "speaker": "Member 3",
+            "text": "What are you guys talking about?",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Football, are you not following the World Cup?",
+            "type": "player",
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "football",
+                    "world",
+                    "cup"
+                ]
+            }
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_3/presentation member 3_07.wav",
+            "speaker": "Member 3",
+            "text": "Not really, but I did hear we're doing pretty well",
+            "type": "normal"
+        },
+        {
+            "speaker": "Player",
+            "text": "Yeah we are",
+            "type": "player",
+            "keywords": {
+                "type": "any"
+            }
+
+        },
+        {
+            "target": "scene-01-05.json",
+            "type": "jump"
+        }
+    ]
+}

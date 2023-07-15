@@ -1,0 +1,16 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "func": "map names",
+            "param": {
+                "Bus Driver": "f_4"
+            },
+            "type": "action"
+        },{
+            "target": "scenario3/scene-03-01-02.json",
+            "type": "jump"
+        }
+    ]
+    
+}

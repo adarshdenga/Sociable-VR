@@ -1,0 +1,15 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s02/s2_host/3.mp3",
+            "speaker": "Host",
+            "text": "Great! Follow me!",
+            "type": "normal"
+        },
+        {
+            "target": "scene-02-02.json",
+            "type": "jump"
+        }
+    ]
+}

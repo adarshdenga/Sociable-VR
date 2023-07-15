@@ -1,0 +1,62 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s02/s2_waiter/12.mp3",
+            "speaker": "Waiter",
+            "text": "So, can I get you all anything else?",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_guest_2/11.mp3",
+            "speaker": "Guest 2",
+            "text": "I'd like a litttle bit more wine please!",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_guest_1/12.mp3",
+            "speaker": "Guest 1",
+            "text": "Me too, thank you!",
+            "type": "normal"
+        },
+        {
+            "audio": "s02/s2_waiter/13.mp3",
+            "speaker": "Waiter",
+            "text": "And how about the food, is everything alright?",
+            "type": "normal"
+        },
+        {
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "all",
+                        "value": [
+                            "food",
+                            "great"
+                        ]
+
+                    },
+                    "score": 0,
+                    "target": "scene-02-08-01.json",
+                    "text": "Yes! The food is great!",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "all",
+                        "value": [
+                            "actually",
+                            "ordered"
+                        ]
+                    },
+                    "score": 3,
+                    "target": "scene-02-09.json",
+                    "text": "Actually, this isn't what I ordered",
+                    "type": "jump"
+                }
+            ],
+            "text": "",
+            "type": "choice"
+        }
+    ]
+}

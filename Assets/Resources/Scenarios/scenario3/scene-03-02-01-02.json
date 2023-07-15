@@ -1,0 +1,45 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/8.mp3",
+            "speaker": "Receptionist",
+            "text": "Okay, we recently entered some new business relationships with relatively big companies so I think you are very needed here. Mr. Jefferson should be in his office right down the corridor on your left. His office is the room on the end of the corridor.",
+            "type": "normal"
+        },
+        {
+            "text": "Yeah, I heard about it in the first interview. Hopefully I will be joining the team and helping to relief this shortage.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "first",
+                    "interview",
+                    "joining",
+                    "team"
+                ]
+            }
+        },
+        {
+            "audio": "s03/9.mp3",
+            "speaker": "Receptionist",
+            "text": "Yes, I hope so too. Best of luck!",
+            "type": "normal"
+        },
+        {
+            "text": "Thank you, I will be on my way then.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "thank",
+                    "way"
+                ]
+            }
+        },
+        {
+            "target": "scenario3/scene-03-03-01.0.json",
+            "type": "jump"
+        }
+    ]
+}

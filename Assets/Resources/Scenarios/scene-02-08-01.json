@@ -1,0 +1,26 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s02/s2_waiter/15.mp3",
+            "speaker": "Waiter",
+            "text": "Oh, my apologies! What did you order?",
+            "type": "normal"
+        },
+        {
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "empty"
+                    },
+                    "score": 0,
+                    "target": "scene-02-08-02.json",
+                    "text": "",
+                    "type": "jump"
+                } 
+            ],
+            "text": "",
+            "type": "choice"
+        }
+    ]
+}

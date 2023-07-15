@@ -1,0 +1,15 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/53.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Yes, you can talk to others directly on the work floor, but we also offer events and extra groups to encourage even more interaction.",
+            "type": "normal"
+        },
+        { 
+            "type": "jump",
+            "target": "scenario3/scene-03-03-03-02.1.json"
+        }
+    ]
+}

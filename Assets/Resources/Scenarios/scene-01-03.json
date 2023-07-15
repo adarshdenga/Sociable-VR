@@ -1,0 +1,37 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s01/voice_lines_pres_member_1/member 1_06.wav",
+            "speaker": "Member 1",
+            "text": "Did you guys watch the game versus the U.S. yesterday?",
+            "type": "normal"
+        },
+        {
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "all",
+                        "value": [
+                            "crazy"
+                        ]
+                    },
+                    "score": 1,
+                    "target": "scene-01-04-01.json",
+                    "text": "Yeah it was crazy",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any"
+                    },
+                    "target": "scene-01-04-02.json",
+                    "text": "Which game?",
+                    "type": "jump"
+                }
+            ],
+            "text": "",
+            "type": "choice"
+        }
+    ]
+}

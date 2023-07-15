@@ -1,0 +1,200 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/60.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Regarding the company events, we have a few types of events.",
+            "type": "normal"
+        },
+        {
+            "text": "And these are?",
+            "type": "player",
+            "keywords": {
+                "type": "empty"
+            }
+        },
+        {
+            "audio": "s03/61.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Well, the biggest events are the annual company wide celebrations. Whenever there is a big milestone, we tend to celebrate it with the whole company, or whoever wants to join. But we also throw a party for some holidays such as a Christmas party and an Easter brunch.",
+            "type": "normal"
+        },
+        {
+            "text": "What milestones should I be thinking of when you say milestones?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "milestones",
+                    "should",
+                    "thinking",
+                    "say"
+                ]
+            }
+        },
+        {
+            "audio": "s03/62.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "For example, you can think of an employee being with the company for a long amount of time or if the company did really well in the last quarter. Generally, these milestones are things that should be celebrated and that is why we do.",
+            "type": "normal"
+        },
+        {
+            "text": "Ah, so extraordinary feats get rewarded appropriately?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "extraordinary",
+                    "feats",
+                    "rewarded",
+                    "appropriately"
+                ]
+            }
+        },
+        {
+            "audio": "s03/63.mp3",
+            "speaker": "Mr. Jefferson",
+            "text":  "Yes, at our company, we try to work hard, but after working hard comes partying hard.",
+            "type": "normal"
+        },
+        {
+            "text": "What other events do you host?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "other",
+                    "events",
+                    "host"
+                ]
+            }
+        },
+        {
+            "audio": "s03/64.mp3",
+            "speaker": "Mr. Jefferson",
+            "text":  "We have a quarterly update for the whole company, but this is more of a presentation than an event. We try to inform everyone of what happened last quarter and what is on the agenda for the next quarter.",
+            "type": "normal"
+        },
+        {
+            "text": "This sounds more like a business-related event than a social event.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "business",
+                    "related",
+                    "event",
+                    "social"
+                ]
+            }
+        },
+        {
+            "audio": "s03/65.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Yes, if you want to know more about social events, we also host at least one yearly company trip. Depending on the location, the company either pays all expenses or a large portion of the expenses.",
+            "type": "normal"
+        },
+        {
+            "text": "How many people usually go on these trips?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "many",
+                    "people",
+                    "go",
+                    "trips"
+                ]
+            }
+        },
+        {
+            "audio": "s03/66.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "On average, around 70% of our employees join us every time. It really depends on the time of the year.",
+            "type": "normal"
+        },
+        {
+            "text": "Who actually plans these trips then? It sounds like a lot of work.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "actually",
+                    "plans",
+                    "work"
+                ]
+            }
+        },
+        {
+            "audio": "s03/67.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "We usually send out a message asking for people who might be interested in hosting the next trip in advance. Of course, the CEO and CFO are involved but the actual planning and itinerary are usually made by committee consisting of employees.",
+            "type": "normal"
+        },
+        {
+            "text": "What is the role of the CEO and CFO in the hosting then?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "what",
+                    "role",
+                    "CEO",
+                    "CFO",
+                    "hosting"
+                ]
+            }
+        },
+        {
+            "audio": "s03/68.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "They are there to make sure that the committee stays within their budget and also doesn't do anything too crazy. We want a fun experience, not a dangerous experience.",
+            "type": "normal"
+        },
+        {
+            "text": "So they are kind of like supervisors that just confirm the plans?",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "kind",
+                    "like",
+                    "supervisors",
+                    "confirm",
+                    "plans"
+                ]
+            }
+        },
+        {
+            "audio": "s03/69.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Yes, and more often than not they will also join the trip. Our CFO, especially, is a very funny guy on trips. During work hours, he is a bit more focused on working and getting results. On holidays, he is more relaxed and very fun to be with.",
+            "type": "normal"
+        },
+        {
+            "text": "Sounds like a fun person to go on holiday with.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "sounds",
+                    "fun",
+                    "person",
+                    "holiday",
+                    "with"
+                ]
+            }
+        },
+        {
+            "audio": "s03/70.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Yes, he certainly is.",
+            "type": "normal"
+        },
+        {
+            "type": "jump",
+            "target": "scenario3/scene-03-03-04.json"
+        }
+    ]
+}

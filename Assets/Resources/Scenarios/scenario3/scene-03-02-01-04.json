@@ -1,0 +1,44 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/12.mp3",
+            "speaker": "Receptionist",
+            "text": "That is the new position our company psychologist was requesting because she was getting overworked. If you haven't met her yet, she's a lovely person but a bit stressed lately because of her workload.",
+            "type": "normal"
+        },
+        {
+            "text": "Hopefully I can help her relieve some stress by taking on some of that workload if I get accepted.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "stress",
+                    "workload",
+                    "accepted"       
+                ]
+            }
+        },
+        {
+            "audio": "s03/",
+            "speaker": "Receptionist",
+            "text": "I hope so for you and for her. Mr, Jefferson should be in Room 278 on the second floor. If you take the stairs, it should be on your right.",
+            "type": "normal"
+        },
+        {
+            "text": "Alright, thank you and have a nice day!",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "thank",
+                    "day"
+                ]
+            }
+        },
+        {
+            "target": "scenario3/scene-03-03-01.0.json",
+            "type": "jump"
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/33.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Yes?",
+            "type": "normal"
+        },
+        {
+            "text": "Well, this company was a start-up, so there were not many employees. This resulted in there being basically no possibility for hierarchy.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "company",
+                    "employees",
+                    "possibility",
+                    "hierarchy"
+                ]
+            }
+        },
+        {
+            "audio": "s03/36.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "You mentioned small, how small should I be thinking?",
+            "type": "normal"
+        },
+        {
+            "text": "We had around 5 full-timers and 3 part-timers so it was a very small company.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "had",
+                    "small",
+                    "company"
+                ]
+            }
+        },
+        {
+            "text": "This also meant that it was hard to have any form of hierarchy because we simply did not have enough people.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "hard",
+                    "hierarchy",
+                    "enough",
+                    "people"
+                ]
+            }
+        },
+        {
+            "audio": "s03/37.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Why did you end up quitting this company?",
+            "type": "normal"
+        },
+        {
+            "text": "Well, to put it bluntly, the founder did not really have good entrepeneurial skills and the company was on its way to bankruptcy.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "well",
+                    "blunty",
+                    "founder",
+                    "company",
+                    "bankruptcy"
+                ]
+            }
+        },
+        {
+            "text": "There was also no good structure in the team and people did not know what they had to do.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "good",
+                    "structure",
+                    "team",
+                    "people"
+                ]
+            }
+        },
+        {
+            "audio": "s03/38.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "So when you said free flowing, you meant it very literally?",
+            "type": "normal"
+        },
+        {
+            "text": "Yes, it was difficult to work because we did not know what to do and no one had a clear overview.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "difficult",
+                    "work",
+                    "clear"
+                ]
+            }
+        },
+        {
+            "audio": "s03/39.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "That really sounds like a recipe for failure, if I'm being very honest.",
+            "type": "normal"
+        },
+        {
+            "type": "jump",
+            "target": "scenario3/scene-03-03-03.json"
+        }
+    ]
+}

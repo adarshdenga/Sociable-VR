@@ -1,0 +1,46 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s02/s2_waiter/4.mp3",
+            "speaker": "Waiter",
+            "text": "Mhmm!",
+            "type": "normal"
+        },
+        {
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "all",
+                        "value": [
+                            "thank",
+                            "you"
+                        ]
+
+                    },
+                    "score": 0,
+                    "target": "scene-02-04-02.json",
+                    "text": "Thank you!",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "all",
+                        "value": [
+                            "could",
+                            "get",
+                            "some",
+                            "ice"
+                        ]
+                    },
+                    "score": 1,
+                    "target": "scene-02-04-02.json",
+                    "text": "And could I get that with some ice?",
+                    "type": "jump"
+                }
+            ],
+            "text": "",
+            "type": "choice"
+        }
+    ]
+}

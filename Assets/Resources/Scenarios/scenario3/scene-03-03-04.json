@@ -1,0 +1,69 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "audio": "s03/71.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "A question we have for you is: What do you want and expect to learn here?",
+            "type": "normal"
+        },
+        {
+            "text": "*answer the question however you like*",
+            "type": "player",
+            "keywords": {
+                "type": "empty"
+            }
+        },
+        {
+            "audio": "s03/72.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Ah yes, our company could certainly help with that I think. To round off the interview, do you have any questions for us?",
+            "type": "normal"
+        },
+        {
+            "type": "choice",
+            "text" : "",
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "empty"
+                    },
+                    "target": "scenario3/scene-03-end.json",
+                    "text": "No",
+                    "type": "jump",
+                    "score": 3
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "most",
+                            "topics",
+                            "learn",
+                            "go"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-end.json",
+                    "text": "I think the most important topics were handled already and I will learn the rest as I go.",
+                    "type": "jump",
+                    "score": 26
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "can",
+                            "ask",
+                            "salary",
+                            "getting"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-03-04-01.json",
+                    "text" : "Can I ask about the salary that I will be getting?",
+                    "type": "jump",
+                    "score": 10
+                }
+            ]
+        }
+    ]
+}

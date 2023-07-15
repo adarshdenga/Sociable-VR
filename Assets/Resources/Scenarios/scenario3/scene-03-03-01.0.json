@@ -1,0 +1,10 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "func": "change scene",
+            "param": "03-Interview-2.unity",
+            "type": "action"
+        }
+    ]
+}

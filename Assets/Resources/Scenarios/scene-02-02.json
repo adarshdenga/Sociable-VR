@@ -1,0 +1,46 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        
+        {
+            "audio": "s02/s2_waiter/1.mp3",
+            "speaker": "Waiter",
+            "text": "Hello! How are we all doing this evening?",
+            "type": "normal"
+        },
+        {
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "all",
+                        "value": [
+                            "hello"
+                        ]
+
+                    },
+                    "score": 0,
+                    "target": "scene-02-02-01.json",
+                    "text": "Hello!",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "all",
+                        "value": [
+                            "great",
+                            "how",
+                            "about",
+                            "you"
+                        ]
+                    },
+                    "score": 2,
+                    "target": "scene-02-02-01.json",
+                    "text": "Hello, we're great, how about you?",
+                    "type": "jump"
+                }
+            ],
+            "text": "",
+            "type": "choice"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "text": "In the past, I have worked in both hierarchical and free-flowing structures.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "past",
+                    "both",
+                    "structures"
+                ]
+            }
+        },
+        {
+            "audio": "s03/32.mp3",
+            "speaker": "Mr. Jefferson",
+            "text": "Oh, that is interesting, could you tell me a bit more about it?",
+            "type": "normal"
+        },
+        {
+            "type": "choice",
+            "text" : "",
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "free",
+                            "flowing", 
+                            "free-flowing",
+                            "flexible"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-03-02-03-01.json",
+                    "text": "Yeah, so about the company that was more free-flowing and flexible.",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "strict",
+                            "hierarchical",
+                            "order"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-03-02-03-02.json",
+                    "text": "Okay, so about the company with the strict hierarchical order.",
+                    "type": "jump"
+                }
+            ]
+        }
+    ]
+}

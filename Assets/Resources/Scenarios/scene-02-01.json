@@ -1,0 +1,43 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s02/s2_host/1.mp3",
+            "speaker": "Host",
+            "text": "Welcome!",
+            "type": "normal"
+        },
+        {
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "all",
+                        "value": [
+                            "hi"
+                        ]
+
+                    },
+                    "score": 0,
+                    "target": "scene-02-01-01.json",
+                    "text": "Hi!",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "all",
+                        "value": [
+                            "hello",
+                            "there"
+                        ]
+                    },
+                    "score": 1,
+                    "target": "scene-02-01-01.json",
+                    "text": "Hello there!",
+                    "type": "jump"
+                }
+            ],
+            "text": "",
+            "type": "choice"
+        }
+    ]
+}

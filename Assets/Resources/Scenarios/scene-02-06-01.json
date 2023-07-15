@@ -1,0 +1,15 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "audio": "s02/s2_waiter/11.mp3",
+            "speaker": "Waiter",
+            "text": "Great! I'll get those for you, and the drinks as well soon!",
+            "type": "normal"
+        },
+        {
+            "target": "scene-02-07.json",
+            "type": "jump"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "$schema": "./scene_schema.json",
+    "main": [
+        {
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "sorry",
+                    "late"
+                ]
+            },
+            "text": "Hey guys, sorry I'm late...",
+            "type": "player"
+        },
+        {
+            "keywords": {
+                "type": "all",
+                "value": [
+                    "missed",
+                    "train"
+                ]
+            },
+            "text": "I missed my usual train and had to take the next one",
+            "type": "player"
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_2/presentation member 2_01.wav",
+            "speaker": "Member 2",
+            "text": "Hello",
+            "type": "normal"
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_3/presentation member 3_01.wav",
+            "speaker": "Member 3",
+            "text": "Hi",
+            "type": "normal"
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_1/member 1_01.wav",
+            "speaker": "Member 1",
+            "text": "No worries, we were just going through the slides for today, we need to decide who presents what very quickly, no pressure",
+            "type": "normal"
+        },
+        {
+            "keywords": {
+                "type": "any"
+            },
+            "text": "Oops, did I miss a lot?",
+            "type": "player"
+        },
+        {
+            "audio": "s01/voice_lines_pres_member_2/presentation member 2_02.wav",
+            "speaker": "Member 2",
+            "text": "Not much, we just got started",
+            "type": "normal"
+        },
+        {
+            "target": "scene-01-02.json",
+            "type": "jump"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "any"
+                    },
+                    "target": "scenario3/scene-03-01-02-01.json",
+                    "text": "Hello, good afternoon",
+                    "score": 10,
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any"
+                    },
+                    "target": "scenario3/scene-03-01-02-02.json",
+                    "text": "Hey, how are you?",
+                    "score": 16,
+                    "type": "jump"
+                }
+            ],
+            "text": "",
+            "type": "choice"
+        }
+    ]
+    
+}

@@ -1,0 +1,90 @@
+{
+    "$schema": "../scene_schema.json",
+    "main": [
+        {
+            "func": "map names",
+            "param": {
+                "Receptionist": "m_3",
+            },
+            "type": "action"
+        },
+        {
+            "audio": "",
+            "speaker": "",
+            "text": "Player enters the building and is at the reception, the player has to ask the receptionist for directions.",
+            "type": "normal"
+        },
+        {
+            "text": "Hey, I would like to ask where I have to be for my job interview.",
+            "type": "player",
+            "keywords": {
+                "type": "any",
+                "value": [
+                    "ask",
+                    "job",
+                    "interview"       
+                ]
+            }
+        },
+        {
+            "audio": "s03/5.mp3",
+            "speaker": "Receptionist",
+            "text": "Hello, for which position is your job interview?",
+            "type": "normal"
+        },
+        {
+            "choice": [
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "software",
+                            "developer"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-02-01-01.json",
+                    "text": "For the software developer job.",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "business",
+                            "consultant"
+                        ]
+                    },
+                    "target": "scenario3/scene-03-02-01-02.json",
+                    "text": "For the business consultant job.",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "HR",
+                            "manager"      
+                        ]
+                    },
+                    "target": "scenario3/scene-03-02-01-03.json",
+                    "text": "For the HR manager job.",
+                    "type": "jump"
+                },
+                {
+                    "keywords": {
+                        "type": "any",
+                        "value": [
+                            "assistant",
+                            "psychologist"      
+                        ]
+                    },
+                    "target": "scenario3/scene-03-02-01-04.json",
+                    "text": "For the assistant psychologist job.",
+                    "type": "jump"
+                }
+            ],
+            "text": "",
+            "type": "choice"
+        }
+    ]
+}
